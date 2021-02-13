@@ -57,7 +57,6 @@ const App = () => {
   const [status, setStatus] = useState('');
   const [gameEnabled, setGameEnabled] = useState(true);
 
-
   useEffect(() => {
     NewGame();
   }, []);
@@ -90,7 +89,7 @@ const App = () => {
       return;
     }
   
-    if (player === player1As)
+    if (player === 1)
     {
       ComputerPlayMove();
     }
